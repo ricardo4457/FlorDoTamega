@@ -201,7 +201,6 @@ p{
   background: white;
   border: 2;
   border-radius: 1000px;
-  box-shadow: 5px 5px 5px rgba(255,255,255, 0.3);
   transition: all 0.3s ease-in-out 0s;
 
  
@@ -209,7 +208,10 @@ p{
   }
 
 
- 
+  .button-footer:hover {
+    background: orange;
+    color: white;
+    }
 
  
 /* slider */

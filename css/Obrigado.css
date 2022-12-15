@@ -1,0 +1,79 @@
+@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+body {
+	padding: 0 20px;
+	min-width: 300px;
+   background-color:  #672d1e;
+	color: white;
+	text-align: center;
+	word-wrap: break-word;
+	-webkit-font-smoothing: antialiased
+}
+
+.site-header {
+	margin: 0 auto;
+	padding: 80px 0 0;
+	max-width: 820px;
+}
+
+
+.button {
+	margin: 0 auto;
+	padding: 80px 0 0;
+	max-width: 820px;
+}
+.site-header__title {
+	margin: 0;
+	font-family: Montserrat, sans-serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 1.1;
+	text-transform: uppercase;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+
+.button {
+   min-width: 150px;
+   min-height: 60px;
+   font-size: 17px;
+   text-transform: uppercase;
+   letter-spacing: 0.7px;
+   font-weight: 600;
+   color: white;
+   background:#b13508;
+   border: 2;
+   border: white;
+   border-radius: 1000px;
+   transition: all 0.3s ease-in-out 0s;
+ 
+  
+   padding: 10px;
+   }
+
+   .button:hover {
+      background: orange;
+      color: white;
+      }
+   
+
+
+@media only screen and (min-width: 40em) {
+	.site-header {
+		padding-top: 150px;
+	}
+	.site-header__title {
+		font-size: 6.25rem;
+	}
+	.main-content__checkmark {
+		font-size: 9.75rem;
+	}
+	.main-content__body {
+		font-size: 1.25rem;
+	}
+}

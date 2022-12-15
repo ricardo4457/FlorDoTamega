@@ -218,6 +218,12 @@ p{
    padding: 10px;
    }
 
+   .button-footer:hover {
+    background: orange;
+    color: white;
+    }
+
+
 
 
 .nav-bar {
@@ -284,7 +290,7 @@ p{
    position: relative;
    overflow: hidden;
    padding: 20px;
-    background-color: tr;
+
 
 
 
