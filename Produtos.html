@@ -53,12 +53,12 @@
       <li class='nav-bar-li'><a class='nav-bar-item' href='#pastelaria'>Pastelaria</a></li>
       <li class='nav-bar-li'><a class='nav-bar-item' href='#padaria'>Padaria</a></li>
       <li class='nav-bar-li'><a class='nav-bar-item' href='#refeicoes'> Refeições</a></li>
-  
+      <li class='nav-bar-li'><a class='nav-bar-item' href='#encomendar'> Encomendar</a></li>
     </ul>
   </nav>
 
   
-  <main>
+
     <section class="et-slide" id="pastelaria">
         <section class="cake-1" > 
            
@@ -422,11 +422,10 @@
                     <p class="cake-short-description">a short line about the cloth..</p>
                 </div>
             </div>
-            
-          </section>
-          <section class="cake-4">
+            </section>
+          <section id="refeicoes" class="cake-4">
             <h2 class="cake-category" style="color: white;">Prato do dia</h2>
-            <div class="cake-card" style="margin-left: 55px;">
+            <div class="cake-card" style="margin-left: 100px;">
                 <div class="cake-image">
                     <img src="images/card3.jpg"  class="cake-thumb" alt="">
                 
@@ -437,14 +436,58 @@
                     <p class="cake-short-description">a short line about the cloth..</p>
                 </div>
             </div>
-        
-          </section>
+        </section>
+    </section>
     </section>
 
-  </main>
+  
+    <section id="encomendar" class="cake-2">
+        <h2  class="cake-category" style="color: white;">Encomendar</h2>
 
 
-  <section>
+            <form action="https://formsubmit.co/r.a.vsegund@gmail.com" method="POST">
+            
+                <input type="text" name="_honey" style="display: none;">
+    
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://ricardo4457.github.io/FlorDeTamega/Obrigado.html">
+                 <ul style="margin-top: -30px;">
+                      <lu>
+                        <p>Nome </p>
+                      </lu>
+                        <lu><input class="inputEnc" type="text" name="Nome"  required></lu>
+                        <lu>
+                            <p>Email</p>
+                          </lu>
+                            <lu><input class="inputEnc" type="email" name="Email"  required></lu>
+        
+                                <p>Telemovel</p>
+                                <lu> <input class="inputEnc" type="tel" name="Telemovel"  required></lu>
+                            <p>Titulo da Encomenda</p>
+                            <lu><input class="inputEnc" type="text" name="Titulo"  required></lu>
+                            <lu>
+                        <p>Tema</p>
+                        <select type="text" class="selectEnc" name="_subject"  required >
+                           <option type="text" style="text-align: left;">Pastelaria</option>
+                           <option type="text" selected>Padaria</option>
+                           <option type="text" >Refeições</option>
+                         </select>
+                        <p>Descrição do Tema</p>
+                        <lu><textarea  type="text"class="textareaEnc"  name="Descrição"  required> </textarea></lu>  
+                        <p>Imagem de Referencia</p>
+                        <lu> <button class="inputEncfile"><input  type="file" name="Img" required></lu></button>
+                        <lu>   
+                 <br>
+                 <br>
+                     <lu>  <button id="btn" type="submit" class="buttonEnc" >Encomendar</lu>
+                   
+                   </form>
+                   
+
+
+    </section>
+
+
   <button  style="z-index: 6;"class="go-top-btn">
 
     <i class="material-icons">arrow_upward</i>
@@ -541,9 +584,11 @@
 
 
 </body>
-</script><script  src="js/sobrenos.js"></script>
-</script><script  src="js\BT.js"></script>
-</script><script  src="js\slider.js"></script>
+<script  src="js/sobrenos.js"></script>
+<script  src="js\BT.js"></script>
+<script  src="js\slider.js"></script>
+<script  src="js\Encomendar.js" type="module"></script>
+
 
 
 </html>
