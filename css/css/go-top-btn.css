@@ -1,0 +1,19 @@
+
+.go-top-btn {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background: orange;
+  border: none;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+ .go-top-btn:active {
+   background-color: white;
+ }
