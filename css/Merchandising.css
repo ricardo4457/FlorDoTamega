@@ -183,6 +183,25 @@ p{
    width: 180px;
  }
 
+   /*Zoom*/
 
+   .imgarea{
+    
+      float: none; width: 600px;
+
+   }
+
+   .imgzoom{
+    
+      transition: 1s ;
+
+   }
+
+   .imgzoom:hover{
+
+      transform: scale(1.2);
+      cursor: pointer;
+
+   }
 
    
