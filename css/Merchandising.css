@@ -13,6 +13,7 @@
 
    height: 180px ;
    width: 180px;
+   margin-bottom: -75px;
 }
 
 /* Footer */
@@ -189,7 +190,9 @@ p{
     
       float: none; width: 600px;
 
+
    }
+  
 
    .imgzoom{
     
