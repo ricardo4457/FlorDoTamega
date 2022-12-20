@@ -7,6 +7,11 @@
    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
    background-position: center;
    background-size: cover; 
+   width: 100%;
+   overflow-x: hidden; 
+   margin-left: -1px;
+ 
+   
  }
 
 
@@ -59,6 +64,7 @@ footer .foot-main{
    flex-wrap: wrap;
    margin-left: -1%;
 margin-top: 4%;
+margin-bottom: -6px;
 
 }
 .foot-row{
@@ -276,7 +282,8 @@ p{
 
     background-color:transparent ;
     margin-top: 50px;
-
+    position: relative;
+    overflow: hidden;
     
  } 
 
@@ -382,6 +389,7 @@ p{
    background: transparent;
    cursor: pointer;
    z-index: 1;
+   
  
  }
 
@@ -537,8 +545,18 @@ p{
         border: 0;
         width: 34%;
         height: 4%;
-        border-radius: 10px;
+        border-radius: 6px;
         outline: none;
+        resize: none;
+        
+      
         
        
      }
+
+     .txttitleEnc{
+
+      font-size: larger;
+     }
+
+

@@ -4,6 +4,8 @@
    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
    background-position: center;
    background-size: cover; 
+   width: 100%;
+   overflow-x: hidden; 
  }
 
 /* Logo */
@@ -32,6 +34,7 @@ footer .foot-main{
    flex-wrap: wrap;
    margin-left: -1%;
 margin-top: 4%;
+margin-bottom: -6px;
 
 }
 .foot-row{
@@ -133,7 +136,7 @@ textarea {
    height: 4%;
    border-radius: 10px;
    outline: none;
-   
+   resize: none;
   
 }
 
@@ -202,9 +205,11 @@ p{
 
    .imgzoom:hover{
 
-      transform: scale(1.158);
+      transform: scale(1.1);
       cursor: pointer;
 
    }
+
+
 
    
