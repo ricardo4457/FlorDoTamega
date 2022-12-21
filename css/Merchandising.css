@@ -20,6 +20,7 @@
 
 /* Footer */
 
+
 footer{
    width: 100vw;
    
@@ -29,12 +30,13 @@ footer .foot-main{
    
    background: black;
    display: flex;
-   justify-content: space-between;
+
    flex: 25%;
    flex-wrap: wrap;
    margin-left: -1%;
-margin-top: 4%;
-margin-bottom: -6px;
+   margin-bottom: -6px;
+ 
+
 
 }
 .foot-row{
@@ -47,11 +49,12 @@ margin-bottom: -6px;
    color: rgb(240, 230, 230);
    margin-bottom: 20px;
    font-size: 1.6rem;
+   position: relative;
    text-transform: uppercase;    
    
 }
 .foot-row h4::before{
-   content: "";
+
    position: absolute;
    left: 5px;
    bottom: -10px;
