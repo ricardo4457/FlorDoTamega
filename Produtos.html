@@ -442,41 +442,39 @@
         <h2  class="cake-category" style="color: white; margin-left: -10px;">Encomendar <img  style="margin-bottom: -17px;margin-left: 1px;width: 87px ; height: 53px ;" src="img\encomendar.png" ></h2>
 
 
-            <form action="https://formsubmit.co/r.a.vsegund@gmail.com"   enctype="multipart/form-data" method="POST">
+            <form id="clearFrom">
             
-                <input type="text" name="_honey" style="display: none;">
+
                 
-             
-                    <input type="hidden" name="_next" value="https://ricardo4457.github.io/FlorDeTamega/Obrigado.html">
+       
                  <ul style="margin-top: -30px;">
                       <lu>
-                        <p class="txttitleEnc"  >Nome </p>
+                        <p class="txttitleEnc">Nome</p>
                       </lu>
-                        <lu><input class="inputEnc" type="text" name="Nome"  required></lu>
+                        <lu><input class="inputEnc"  type="text" id="Nome" required></lu>
                         <lu>
                             <p class="txttitleEnc" >Email</p>
                           </lu>
-                            <lu><input class="inputEnc" type="email" name="Email"  required></lu>
+                            <lu><input class="inputEnc" type="email" id="Email" required></lu>
         
                                 <p class="txttitleEnc" >Telemóvel</p>
-                                <lu> <input class="inputEnc" type="tel" name="Telemovel"  required></lu>
-                            <p class="txttitleEnc" >Titulo da Encomenda</p>
-                            <lu><input class="inputEnc" type="text" name="Titulo"  required></lu>
-                            <lu>
+                                <lu><input class="inputEnc" type="tel" id="Telemovel"  required></lu>
+
+                                <p class="txttitleEnc" >Título da Encomenda</p>
+                                <lu><input class="inputEnc" type="text" id="Titulo"  required></lu>
+                          
                         <p class="txttitleEnc" >Tema</p>
-                        <select type="text" class="selectEnc" name="_subject"  required >
+                        <select type="text" class="selectEnc" id="Subject"   required >
                            <option type="text" style="text-align: left;">Pastelaria</option>
                            <option type="text" selected>Padaria</option>
                            <option type="text" >Refeições</option>
                          </select>
-                        <p class="txttitleEnc" >Descrição do Tema</p>
-                        <lu><textarea rows="4" cols="60"  type="text"class="textareaEnc"  name="Descrição"  required> </textarea></lu>  
-                        <p class="txttitleEnc" >Imagem de Referência</p>
-                        <lu> <button class="inputEncfile"><input  type="file" name="Img" accept="image/png, image/jpeg" required></lu></button>
-                        <lu>   
+                        <p class="txttitleEnc" >Descrição da Encomenda</p>
+                        <lu><textarea rows="4" cols="60"  type="text"class="textareaEnc" id="Descricao"  required></textarea></lu>  
+                    
                  <br>
                  <br>
-                     <lu>  <button id="btn" type="submit" class="buttonEnc" >Encomendar</lu>
+                     <lu><button id="btn1" type="submit" class="buttonEnc" >Encomendar</lu>
                    
                    </form>
                    
@@ -497,39 +495,38 @@
            
             <h4>Contacte-nos</h4>
             
-            <form action="https://formsubmit.co/r.a.vsegund@gmail.com" method="POST">
-            
-            <input type="text" name="_honey" style="display: none;">
-        
-                <input type="hidden" name="_next" value="https://ricardo4457.github.io/FlorDeTamega/Obrigado.html">
-             <ul>
-                  <lu>
-                    <p>Nome</p>
-                  </lu>
-                    <lu><input class="input-footer" type="text" name="Nome" required></lu>
-                    <lu>
-                     <p>Email</p>
-                   </lu>
-                     <lu><input class="input-footer" type="email" name="Email" required></lu>
-                         <p>Telemóvel</p>
-                    <lu><input class="input-footer" type="tel" name="Telemovel" required></lu>
-                    <p>Tema</p>
-                    <select type="text" class="select-footer" name="_subject"  required >
-                       <option type="text" style="text-align: left;">Emprego</option>
-                       <option type="text" selected>Duvídas Sobre Produtos</option>
-                       <option type="text" >Outras Questões</option>
-                     </select>
-                    <p>Descrição do Tema</p>
-                    <lu><textarea  type="text"class="textarea-footer"  name="Descrição" rows="4" cols="40" required> </textarea></lu>     
-             <br>
-             <br>
-                 <lu>  <button id="btn" type="submit" class="button-footer" >Enviar</lu>
-                    
-                 </ul>
-                 <ul>
-                 <li><a>Será enviado para este Email  : <br> <br> geral@padariaflordotamega.com </a></li>
-                </ul>
-               </form>
+            <form id="clearFrom">
+             
+                <ul>
+                     <lu>
+                       <p>Nome</p>
+                     </lu>
+                       <lu><input class="input-footer" type="text" id="Nome" required></lu>
+                       <lu>
+                        <p>Email</p>
+                      </lu>
+                        <lu><input class="input-footer" type="email" id="Email" required></lu>
+                            <p>Telemóvel</p>
+                       <lu><input class="input-footer" type="tel" id="Telemovel" required></lu>
+                       <p class="txttitleEnc" >Título do Assunto</p>
+                                <lu><input class="inputEnc" type="text" id="Titulo"  required></lu>
+                       <p>Tema</p>
+                       <select type="text" class="select-footer" id="Subject"  required>
+                          <option type="text" style="text-align: left;">Emprego</option>
+                          <option type="text" selected>Duvídas Sobre Produtos</option>
+                          <option type="text" >Outras Questões</option>
+                        </select>
+                       <p>Descrição do Tema</p>
+                       <lu><textarea  type="text"class="textarea-footer"  id="Descricao" rows="4" cols="40" required></textarea></lu>     
+                <br>
+                <br>
+                    <lu><button id="btn1" type="submit" class="button-footer" >Enviar</lu>
+                       
+                    </ul>
+                    <ul>
+                    <li><a>Será enviado para este Email  : <br> <br> geral@padariaflordotamega.com </a></li>
+                   </ul>
+                  </form>
                
         </div>
         <div class="foot-row">
@@ -571,6 +568,10 @@
 
 
 </body>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script type="module" src="js/app.js"></script>
 <script  src="js/sobrenos.js"></script>
 <script  src="js\BT.js"></script>
 <script  src="js\slider.js"></script>

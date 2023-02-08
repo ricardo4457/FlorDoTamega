@@ -174,37 +174,36 @@
 
   <footer class="foot-col">
     <div class="foot-main">
-        <div class="foot-row">
+        <div class="foot-row" >
            
             <h4>Contacte-nos</h4>
             
-            <form action="https://formsubmit.co/r.a.vsegund@gmail.com" method="POST">
+            <form id="clearFrom">
              
-            <input type="text" name="_honey" style="display: none;">
-       
-                <input type="hidden" name="_next" value="https://ricardo4457.github.io/FlorDeTamega/Obrigado.html">
              <ul>
                   <lu>
                     <p>Nome</p>
                   </lu>
-                    <lu><input class="input-footer" type="text" name="Nome" required></lu>
+                    <lu><input class="input-footer" type="text" id="Nome" required></lu>
                     <lu>
                      <p>Email</p>
                    </lu>
-                     <lu><input class="input-footer" type="email" name="Email" required></lu>
+                     <lu><input class="input-footer" type="email" id="Email" required></lu>
                          <p>Telemóvel</p>
-                    <lu><input class="input-footer" type="tel" name="Telemovel" required></lu>
+                    <lu><input class="input-footer" type="tel" id="Telemovel" required></lu>
+                    <p class="txttitleEnc" >Título do Assunto</p>
+                    <lu><input class="inputEnc" type="text" id="Titulo"  required></lu>
                     <p>Tema</p>
-                    <select type="text" class="select-footer" name="_subject"  required >
+                    <select type="text" class="select-footer" id="Subject"  required >
                        <option type="text" style="text-align: left;">Emprego</option>
                        <option type="text" selected>Duvídas Sobre Produtos</option>
                        <option type="text" >Outras Questões</option>
                      </select>
                     <p>Descrição do Tema</p>
-                    <lu><textarea  type="text"class="textarea-footer"  name="Descrição" rows="4" cols="40" required> </textarea></lu>     
+                    <lu><textarea  type="text"class="textarea-footer"  id="Descricao" rows="4" cols="40" required></textarea></lu>     
              <br>
              <br>
-                 <lu>  <button id="btn" type="submit" class="button-footer" >Enviar</lu>
+                 <lu>  <button id="btn1" type="submit" class="button-footer" >Enviar</lu>
                     
                  </ul>
                  <ul>
@@ -248,12 +247,14 @@
         </div>
     </div>
  </footer>
- 
+
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+ <script type="module" src="js/app.js"></script>
 <script  src="js/BT.js"></script>
 <script src="js\slider.js"></script>
 <script  src="js/navbar.js"></script>
 
 </body>
-
-
 </html>
